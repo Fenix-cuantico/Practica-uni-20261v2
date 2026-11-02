@@ -1,0 +1,75 @@
+.profile-banner-horizontal {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+.profile-photo-container {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.profile-photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-pills-custom .nav-link {
+    color: #0d6efd;
+    border-radius: 0;
+    border: none;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    background: transparent;
+    transition: all 0.2s;
+}
+.nav-pills-custom .nav-link:hover {
+    color: #0056b3;
+    background: #f8f9fa;
+}
+.nav-pills-custom .nav-link.active {
+    color: #0d6efd;
+    font-weight: bold;
+    border-top: 2px solid #0d6efd;
+    background: transparent;
+}
+.form-floating > label {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+}
+.editable-field[readonly], .editable-field[disabled] {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #e9ecef !important;
+    padding-left: 0;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+/* Inline validation warnings */
+.inline-field-warning {
+    animation: warningFadeIn 0.2s ease;
+}
+@keyframes warningFadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.editable-field.border-danger {
+    border-color: #dc3545 !important;
+    transition: border-color 0.2s ease;
+}
+.field-hint {
+    font-size: 0.75rem;
+}
+

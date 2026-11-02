@@ -1,0 +1,97 @@
+# ==========================================
+# Entorno y Configuración Local
+# ==========================================
+.env
+.env.backup
+.env.production
+.env.*.local
+.env.local
+!.env.example
+Homestead.json
+Homestead.yaml
+auth.json
+
+# ==========================================
+# Dependencias y Paquetes
+# ==========================================
+/vendor/
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Base de Datos Local y SQLite
+# ==========================================
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.db
+/database/database.sqlite
+
+# ==========================================
+# Caches, Almacenamiento y Logs
+# ==========================================
+/public/hot
+/public/storage
+/public/build
+/storage/*.key
+/storage/logs/*.log
+*.log
+/.phpunit.cache
+.phpunit.result.cache
+
+# ==========================================
+# Editores e IDEs
+# ==========================================
+/.vscode/
+/.idea/
+/.fleet/
+/.zed/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# ==========================================
+# Herramientas de IA y Asistentes
+# ==========================================
+/.cursor/
+.cursorrules
+/.windsurf/
+.windsurfrules
+/.copilot/
+/.gemini/
+/.antigravity/
+/.claude/
+/.aider*
+/.continue/
+/.cline/
+*.prompt
+
+# ==========================================
+# Archivos de Sistema Operativo
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# Guías Internas y Requerimientos Locales
+# ==========================================
+GUIA.MD
+guia.md
+Guia.md
+guia_pdf.md
+tabla_normalizacion.md
+*.local
