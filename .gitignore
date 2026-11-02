@@ -58,21 +58,6 @@ pnpm-debug.log*
 *.sw?
 *~
 
-# ==========================================
-# Herramientas de IA y Asistentes
-# ==========================================
-/.cursor/
-.cursorrules
-/.windsurf/
-.windsurfrules
-/.copilot/
-/.gemini/
-/.antigravity/
-/.claude/
-/.aider*
-/.continue/
-/.cline/
-*.prompt
 
 # ==========================================
 # Archivos de Sistema Operativo
